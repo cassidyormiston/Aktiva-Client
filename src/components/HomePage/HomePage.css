@@ -1,0 +1,71 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 103vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.home-bg {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.search-bar {
+    z-index: 10;
+    display: flex;
+    width: 50%;
+    position: absolute;
+    /* left: 300px; */
+    top: 200px;
+    align-items: center
+}
+
+.home-location {
+    z-index: 10;
+    position: absolute;
+    top: 300px;
+    align-items: center
+}
+
+.home-location p {
+    color: white;
+    font-family: 'Karla';
+    font-size: 24px;
+}
+
+.hl {
+    display: flex;
+    justify-content: center;
+}
+
+.loc {
+    margin-top: -3px;
+}
+
+.location-icon {
+    font-size: 40px;
+    margin-right: 17px;
+    display: flex
+    align-items center;
+}
+
+.location {
+    display: flex;
+}
+
+.tile-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.tile {
+    display: flex;
+}

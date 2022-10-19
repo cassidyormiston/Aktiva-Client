@@ -1,0 +1,69 @@
+.profile-container {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 103vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-bg {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gradient-profile-bg {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #fff;
+    position: relative;
+}
+
+.profile-title {
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.profile-title h1 {
+    font-style: medium;
+    font-size: 70px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Kaisei HarunoUmi' 
+}
+
+.profile-title p {
+    color: white;
+    font-family: 'Karla';
+    font-size: 20px;;
+}
+
+.profile-content {
+    z-index: 10;
+    position: absolute;
+    left: 170px;
+    top: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-content p {
+    color: white;
+    font-family: 'Karla';
+    font-size: 30px;
+    margin-top: 20px;
+}
